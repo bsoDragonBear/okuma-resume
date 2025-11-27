@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scott Okuma's Resume</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        h1 {
+            text-align: center;
+            border-bottom: 3px solid #333;
+            padding-bottom: 10px;
+        }
+        h2 {
+            margin-top: 30px;
+            border-bottom: 2px solid #ccc;
+            padding-bottom: 5px;
+        }
+        .profile-img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            display: block;
+            margin: 20px auto;
+        }
+        .job-item {
+            margin-bottom: 20px;
+        }
+        .job-title {
+            font-weight: bold;
+            font-size: 1.1em;
+        }
+        .job-dates {
+            color: #666;
+            font-style: italic;
+        }
+        .job-details {
+            margin-left: 20px;
+            margin-top: 5px;
+        }
+        .job-details li {
+            margin-bottom: 5px;
+        }
+        .skills-list {
+            columns: 2;
+            margin-left: 20px;
+        }
+        .jobs-grid {
+            display: grid;
+            grid-template-rows: repeat(2, 1fr);
+            grid-auto-flow: column;
+            gap: 20px;
+            margin: 20px 0;
+        }
+        .grid-job-item {
+            text-align: center;
+        }
+        .grid-job-item img {
+            height: 150px;
+            object-fit: contain;
+        }
+        footer {
+            text-align: center;
+            margin-top: 40px;
+            border-top: 2px solid #ccc;
+            padding-top: 20px;
+            color: #666;
+        }
+        .contact-links {
+            text-align: center;
+            margin-top: 20px;
+        }
+        .contact-links a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: #0066cc;
+        }
+    </style>
+</head>
+<body>
+    <h1>Scott Okuma</h1>
+    <p style="text-align: center; color: #666;">Architect | Maker | Director </p>
+    <p style="text-align: center;">Ventura, CA 93001 | scottokuma@gmail.com | +1 805 765 1081</p>
+
+    <h2>Summary</h2>
+    <p>Accomplished spacecraft systems architect and software leader with nearly 15 years of experience guiding multidisciplinary teams in developing mission-critical flight software. Expert in embedded systems, real-time architectures, and avionics integration, with a proven track record of delivering reliable, scalable solutions for complex aerospace projects. Adept at technical leadership, team building, and aligning engineering with mission objectives.</p>
+
+    <h2>Work Experience</h2>
+    
+    <div class="job-item">
+        <div class="job-title">Spacecraft Systems Architect</div>
+        <div class="job-dates">Umbra Space - Goleta, CA | March 2025 to Present</div>
+        <ul class="job-details">
+            <li>Defined end-to-end architecture of spacecraft software systems, integrating real-time flight software, avionics, and ground command frameworks</li>
+            <li>Bridged hardware and software, ensuring cohesive integration across flight computers, data buses, and mission operations systems</li>
+            <li>Guided system-level software design, reliability strategies, and data architecture for mission-critical operations</li>
+            <li>Led cross-functional teams to deliver robust, scalable software solutions for spacecraft systems</li>
+        </ul>
+    </div>
+
+    <div class="job-item">
+        <div class="job-title">Director of Spacecraft Software</div>
+        <div class="job-dates">Umbra Space - Santa Barbara, CA | August 2021 to March 2025</div>
+        <ul class="job-details">
+            <li>Led all aspects of flight software development for spacecraft systems, overseeing architecture, development, and integration</li>
+            <li>Ensured reliability, safety, and mission success through disciplined engineering processes</li>
+            <li>Directed testing and validation of embedded flight software across multiple flight programs</li>
+            <li>Managed and improved nightly CI/CD efforts and test infrastructure</li>
+        </ul>
+    </div>
+
+    <div class="job-item">
+        <div class="job-title">Flight Software Lead</div>
+        <div class="job-dates">Umbra Space - Santa Barbara, CA | June 2019 to September 2021</div>
+        <ul class="job-details">
+            <li>Developed and brought up a Zynq-based flight controller for small satellite command and control</li>
+            <li>Utilized Vivado/Vitis, C++, VHDL, Python, and embedded systems expertise to deliver robust solutions</li>
+        </ul>
+    </div>
+
+    <div class="job-item">
+        <div class="job-title">Electrical/Firmware Engineer</div>
+        <div class="job-dates">Raytheon - Goleta, CA | September 2017 to June 2019</div>
+        <ul class="job-details">
+            <li>Designed and implemented digital firmware for RF system controllers using VHDL/Verilog and Vivado</li>
+            <li>Customized Linux kernels and developed embedded systems with Petalinux and C/C++</li>
+        </ul>
+    </div>
+
+    <div class="job-item">
+        <div class="job-title">Electrical Engineer</div>
+        <div class="job-dates">NAWCWD - Point Mugu, CA | January 2015 to September 2017</div>
+        <ul class="job-details">
+            <li>Developed software and performed RF hardware repair, layout, and test planning for radar systems</li>
+            <li>Created a DRFM jammer using FPGA, RF transceiver, and user interface for enhanced survivability</li>
+        </ul>
+    </div>
+
+    <div class="job-item">
+        <div class="job-title">Electrical/RF Engineer</div>
+        <div class="job-dates">Computer Sciences Corporation - Point Mugu, CA | January 2012 to January 2015</div>
+        <ul class="job-details">
+            <li>Programmed and implemented automated test procedures for GaN RF amplifiers using Labview and GPIB interface</li>
+            <li>Collaborated with technicians to construct final products and troubleshoot systems</li>
+        </ul>
+    </div>
+
+    <div class="job-item">
+        <div class="job-title">Satellite Communications Team Member for CSUN CubeSat1</div>
+        <div class="job-dates">Jet Propulsion Laboratory / CSU Northridge | January 2014 to December 2014</div>
+        <ul class="job-details">
+            <li>Wrote and implemented radio communication test procedures for electrostatic sensitive devices</li>
+            <li>Created Bit Error Rate and Link Budget spreadsheets for mission planning</li>
+        </ul>
+    </div>
+
+    <div class="job-item">
+        <div class="job-title">NOAA Radio Weather Receiver Team Member</div>
+        <div class="job-dates">CSU Northridge | February 2014 to June 2014</div>
+        <ul class="job-details">
+            <li>Designed RF amplifier for NOAA weather radio super-heterodyne receiver</li>
+            <li>Developed software-defined radio using MATLAB Simulink</li>
+        </ul>
+    </div>
+
+    <h2>Education</h2>
+    <div class="job-item">
+        <div class="job-title">Bachelor of Science in Engineering</div>
+        <div class="job-dates">California State University Northridge (2012-2014)</div>
+    </div>
+
+    <h2>Skills</h2>
+    <div class="skills-list">
+        <ul>
+            <li>CI/CD</li>
+            <li>Embedded Systems</li>
+            <li>Flight Software Architecture</li>
+            <li>Technical Project Management</li>
+            <li>System Integration</li>
+            <li>C++</li>
+            <li>Python</li>
+            <li>FPGA Design</li>
+            <li>VHDL/Verilog</li>
+            <li>Linux/Real-time Operating Systems</li>
+            <li>Git/GitHub/GitLab</li>
+            <li>Team Leadership</li>
+        </ul>
+    </div>
+
+    <h2>Certifications</h2>
+    <div class="job-item">
+        <div class="job-title">Xilinx Embedded Design with Petalinux Tools</div>
+        <div class="job-dates">November 2018 to Present</div>
+    </div>
+
+    <h2>Companies I've Worked For</h2>
+    <div class="jobs-grid">
+        <div class="grid-job-item">
+            <img src="./assets/images/umbra.png" alt="Umbra Space">
+            <p>Umbra Space</p>
+        </div>
+        <div class="grid-job-item">
+            <img src="./assets/images/raytheon.png" alt="Raytheon">
+            <p>Raytheon</p>
+        </div>
+        <div class="grid-job-item">
+            <img src="./assets/images/ew.png" alt="Electronic Warefare Systems">
+            <p>Electronic Warefare Systems at NAWCWD</p>
+        </div>
+        <div class="grid-job-item">
+            <img src="./assets/images/EW-testing.png" alt="Automated Testing">
+            <p>Automated Testing for CSC Corp</p>
+        </div>
+        <div class="grid-job-item">
+            <img src="./assets/images/csun-sat1.png" alt="CSUN Sat1">
+            <p>CSUN Sat1 Team Member- JPL</p>
+        </div>
+        <div class="grid-job-item">
+            <img src="./assets/images/noaa-sdr.png" alt="NOAA SDR Radio">
+            <p>NOAA-SDR Team Member</p>
+        </div>
+    </div>
+
+    <h2>Other</h2>
+    <div class="contact-links">
+        <a href="./public/about.html">About Me</a>
+        <a href="./public/contact.html">Contact Me</a>
+    </div>
+
+    <footer>
+        © Scott Okuma. All rights reserved.
+    </footer>
+    
+</body>
+</html>
