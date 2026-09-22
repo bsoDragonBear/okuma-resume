@@ -22,3 +22,24 @@ python3 scripts/build_resume_pdf.py
 The builder uses Python 3 and ReportLab. To preview a separate output, use
 `--output /path/to/resume.pdf`. Review both PDF pages after rebuilding, particularly
 when changing text length. Commit the HTML and generated PDF together.
+
+## Google Quantum AI resume
+
+A separate version tailored to **Technical Program Manager, System Integration,
+Quantum AI** in Goleta ([job 135168602138387142](https://www.google.com/about/careers/applications/jobs/results/135168602138387142-technical-program-manager-system-integration-quantum-ai)).
+
+- Source/web resume: [google-quantum-tpm.html](google-quantum-tpm.html)
+- Printable resume: [Scott-Okuma-Google-Quantum-AI-TPM.pdf](Scott-Okuma-Google-Quantum-AI-TPM.pdf)
+
+This version emphasizes technical project leadership, cross-functional hardware/software
+integration, RF engineering, process development, and system verification. Employment
+titles and dates are retained. It does not claim direct quantum-computing experience
+or unverified budget, supply-chain, inventory, or vendor-management responsibilities.
+
+Rebuild this version independently:
+
+```sh
+python3 scripts/build_resume_pdf.py --source google-quantum-tpm.html --output Scott-Okuma-Google-Quantum-AI-TPM.pdf
+```
+
+Review both pages after rebuilding. Commit the HTML and PDF together.

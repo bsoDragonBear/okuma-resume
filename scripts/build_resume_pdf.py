@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Build the resume PDF from the data-pdf elements in index.html."""
+"""Build a resume PDF from the data-pdf elements in an HTML source."""
 
 import argparse
 import reportlab
@@ -115,7 +115,7 @@ def build_pdf(source, output):
     document = SimpleDocTemplate(
         str(output), pagesize=letter, leftMargin=42, rightMargin=42,
         topMargin=36, bottomMargin=40,
-        title=f"{name} - Spacecraft Platform Software Resume", author=name,
+        title=f"{name} - {next((text for kind, _, text in parser.blocks if kind == 'headline'), 'Resume')}", author=name,
     )
     document.build(story, onFirstPage=decorate_page, onLaterPages=decorate_page)
     print(f"Built {output}")
