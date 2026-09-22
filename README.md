@@ -31,10 +31,13 @@ Quantum AI** in Goleta ([job 135168602138387142](https://www.google.com/about/ca
 - Source/web resume: [google-quantum-tpm.html](google-quantum-tpm.html)
 - Printable resume: [Scott-Okuma-Google-Quantum-AI-TPM.pdf](Scott-Okuma-Google-Quantum-AI-TPM.pdf)
 
-This version emphasizes technical project leadership, cross-functional hardware/software
-integration, RF engineering, process development, and system verification. Employment
-titles and dates are retained. It does not claim direct quantum-computing experience
-or unverified budget, supply-chain, inventory, or vendor-management responsibilities.
+This version emphasizes program planning and delivery since 2020, Jira-based capacity
+forecasting, headcount proposals, executive reporting, cross-functional integration,
+and RF/test experience. It includes delivery against a six-month schedule extension
+and a component-substitution checkout example. Employment titles and dates are retained.
+Resource responsibilities are limited to staffing forecasts and proposals; this version
+does not claim budget ownership, supply-chain/inventory ownership, vendor management,
+or direct quantum-computing experience.
 
 Rebuild this version independently:
 
